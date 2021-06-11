@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <title>Hello, world!</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  <script src="https://kit.fontawesome.com/adcce38ff5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Header  -->
+
+  <!-- top bar in blue  -->
+
+  <div class="row top-head">
+    <div class="col-lg-7  mt-2 mb-2">
+      Trending News : <text>
+        Hi this is sample paragraph text which will move according to content size and width
+      </text>
+    </div>
+    <div class="col-lg-5  mt-2 mb-2">
+      Contact Us
+      <i class="fab fa-instagram ml-3"></i>
+      <i class="fab fa-twitter ml-3"></i>
+      <i class="fab fa-facebook ml-3"></i>
+      <i class="far fa-envelope ml-3"></i> info@feai.com
+      <i class="fas fa-mobile ml-3"></i> +91-99999999
+
+
+    </div>
+  </div>
+
+  <!-- navigation bar in white  -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-primary bg-light fixed ">
+    <div class="container-fluid">
+
+
+
+      <a class="navbar-brand" href="#">
+        <img src="Assets/logo.png" alt="logo" width="150" height="75">
+      </a>
+
+      <!-- Toggle and menu  toggle didnt work with version 5 -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-sliders-h icon-color"></i>
+      </button>
+
+      <div class="container-fluid side-menu ">
+
+
+
+        <div class=" navbar-collapse collapse justify-content-end  " id="navbarSupportedContent">
+
+
+
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link active item-color" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-color " href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-color " href="#governance">Governance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-color" href="#esports">E-Sports</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link item-color" href="#esports">Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-color" href="#esports">News</a>
+            </li>
+
+            <li>
+              <a class="nav-link item-color" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Top banner carousel -->
+
+  <div class="jumbotron jumbotron-fluid top-div">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 banner-image" src="Assets/bg2.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 banner-image" src="Assets/bg3.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 banner-image" src="Assets/bg4.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- news section  -->
+  <div class="container-fluid">
+    <div class=" row">
+
+      <!-- sub section upcoming events  -->
+
+      <div class=" col col-lg-5">
+        <div class="card text-left">
+          <div class="card-header">
+            <h4 class="">Upcoming Events</h4>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <img src="Assets/pubg.jpeg" class="img-thumbnail" alt="image">
+                </div>
+
+                <div class="col-lg-10 ">
+                  <h5 class="title">13th World Championship</h5>
+                  <text class="date"> <b>Date:</b> 26th Jan 2021 &nbsp;&nbsp;&nbsp; <b>Venue:</b> New Delhi</text><br />
+                  <text class="event-content">
+                    International Esports Federation (IESF) is inviting potential hosts for IESF 14th Esports World Championship 2022.
+                  </text>
+                </div>
+
+              </div>
+
+
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <img src="Assets/pubg.jpeg" class="img-thumbnail" alt="image">
+                </div>
+
+                <div class="col-lg-10 ">
+                  <h5 class="title">13th World Championship</h5>
+                  <text class="date"> <b>Date:</b> 26th Jan 2021 &nbsp;&nbsp;&nbsp; <b>Venue:</b> New Delhi</text><br />
+                  <text class="event-content">
+                    International Esports Federation (IESF) is inviting potential hosts for IESF 14th Esports World Championship 2022.
+                  </text>
+                </div>
+
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <img src="Assets/pubg.jpeg" class="img-thumbnail" alt="image">
+                </div>
+
+                <div class="col-lg-10 ">
+                  <h5 class="title">13th World Championship</h5>
+                  <text class="date"> <b>Date:</b> 26th Jan 2021 &nbsp;&nbsp;&nbsp; <b>Venue:</b> New Delhi</text><br />
+                  <text class="event-content">
+                    International Esports Federation (IESF) is inviting potential hosts for IESF 14th Esports World Championship 2022.
+                  </text>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <img src="Assets/pubg.jpeg" class="img-thumbnail" alt="image">
+                </div>
+
+                <div class="col-lg-10 ">
+                  <h5 class="title">13th World Championship</h5>
+                  <text class="date"> <b>Date:</b> 26th Jan 2021 &nbsp;&nbsp;&nbsp; <b>Venue:</b> New Delhi</text><br />
+                  <text class="event-content">
+                    International Esports Federation (IESF) is inviting potential hosts for IESF 14th Esports World Championship 2022.
+                  </text>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <!-- sub section trending news  -->
+      <div class="col col-lg-7">
+        <div class="row">
+          <h4> Trending News</h4>
+
+        </div>
+        <hr>
+        <div class="row section1 ">
+          <div class="col col-lg-12  ">
+            <img src="Assets/bg3.jpg" class="news-image">
+            <h1>Read More</h1>
+          </div>
+        </div>
+        <div class="row mt-2 ml-1">
+          <div class="card" style="width: 12rem;">
+            <img class="card-img-top" src="Assets/bg2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="news">News &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <text>10th May 2022</text></p>
+              <p class="card-text news-text">Telecast Details for E-sports happening in Delhi for 13th World Championship International Esports Federation (IESF) is inviting potential hosts for </p>
+
+            </div>
+          </div>
+
+          <div class="card ml-2" style="width: 12rem;">
+            <img class="card-img-top" src="Assets/bg2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="news">News &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <text>10th May 2022</text></p>
+              <p class="card-text news-text">Telecast Details for E-sports happening in Delhi for 13th World Championship International Esports Federation (IESF) is inviting potential hosts for </p>
+
+            </div>
+          </div>
+          <div class="card ml-2" style="width: 12rem;">
+            <img class="card-img-top" src="Assets/bg2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="news">News &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <text>10th May 2022</text></p>
+              <p class="card-text news-text">Telecast Details for E-sports happening in Delhi for 13th World Championship International Esports Federation (IESF) is inviting potential hosts for </p>
+
+            </div>
+          </div>
+          <div class="card ml-2" style="width: 12rem;">
+            <img class="card-img-top" src="Assets/bg2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="news">News &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <text>10th May 2022</text></p>
+              <p class="card-text news-text">Telecast Details for E-sports happening in Delhi for 13th World Championship International Esports Federation (IESF) is inviting potential hosts for </p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Facts Section  -->
+<div class="jumbotron jumbotron-fluid facts-div" style="background: url(Assets/bg4.jpg) ">
+  <h1>E-Sports By Numbers</h1>
+  <div class = "row mt-5">
+    <div class="col">
+      <i class="fas fa-dollar-sign icon-numbers"></i>
+      <p class= "revenue">
+        Total Esports industry revenues generated in 2020
+        </p>
+      </div>
+      <div class="col">
+        <i class="fas fa-trophy icon-numbers"></i>
+        <p class= "revenue">
+          Total Esports industry revenues generated in 2020
+          </p>
+        </div>
+      <div class= "col">
+        <i class="fas fa-users icon-numbers"></i>
+      <p class= "revenue">
+          Total Esports industry revenues generated in 2020
+          </p>
+        </div>
+      <div class = "col">
+        <i class="fas fa-award icon-numbers"></i>
+      <p class= "revenue">
+          Total Esports industry revenues generated in 2020
+          </p>
+        </div>
+    </div>
+  </div>
+
+<!-- About Us section home page  -->
+
+<div class = "container-fluid">
+  <div class ="row justify-content-center">
+    <h2>About Federation of E-Sports Associations India</h2>
+
+    </div>
+<hr class="abouthr">
+
+<div class="row">
+  <div class = "col">
+    <div class="card bg-dark text-white" style ="height:400px ">
+      <img class="card-img" src="Assets/bg5.jpg" alt="Card image" style = "height:420px">
+      <div class="card-img-overlay">
+        <h5 class="card-title">About Us</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+      </div>
+    </div>
+    </div>
+
+    <div class = "col">
+
+      <div class="card bg-dark text-white" style ="height:200px ">
+        <img class="card-img" src="Assets/bg5.jpg" alt="Card image" style = "height:200px">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Mission</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        </div>
+      </div>
+      <div class="card bg-dark text-white mt-4" style ="height:200px ">
+        <img class="card-img" src="Assets/bg5.jpg" alt="Card image" style = "height:200px">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Vision</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        </div>
+      </div>
+
+      </div>
+
+      <div class = "col">
+        <div class="card bg-dark text-white" style ="height:200px ">
+          <img class="card-img" src="Assets/bg5.jpg" alt="Card image" style = "height:200px">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Governance</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+          </div>
+        </div>
+        <div class="card bg-dark text-white mt-4" style ="height:200px ">
+          <img class="card-img" src="Assets/bg5.jpg" alt="Card image" style = "height:200px">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Membership</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+          </div>
+        </div>
+        </div>
+  </div>
+
+  </div>
+
+<!-- Partners  section  -->
+<div class="jumbotron jumbotron-fluid partners-div">
+  <div class = "row justify-content-center mt-n4">
+    <h1>Our Partners </h1>
+    </div>
+
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class = "row car-image">
+        <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        <img class="d-block img-thumbnail  img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+          <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        </div>
+
+    </div>
+
+    <div class="carousel-item">
+      <div class = "row car-image">
+        <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        <img class="d-block img-thumbnail  img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+          <img class="d-block img-thumbnail img-thumbnail-width ml-3" src="Assets/Logo_of_Dream11.png" alt="First slide">
+        </div>
+    </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <i class="fas fa-arrow-left icon1"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <i class="fas fa-arrow-right icon1"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </div>
+
+
+  <!-- Footer  -->
+
+  <footer class="footer">
+<div class="container bottom_border">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+<!--headin5_amrc-->
+<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+<p><i class="fa fa-location-arrow"></i> 18 Patparganj Industrial Area Delhi 92 </p>
+<p><i class="fa fa-phone"></i>  +91-99999999  </p>
+<p><i class="fa fa fa-envelope"></i> info@feai.com  </p>
+
+
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">About us</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="">Vision</a></li>
+<li><a href="">Mission</a></li>
+<li><a href="">Governance</a></li>
+<li><a href="">Partners</a></li>
+<li><a href="">Contact Us</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Member Information</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="">Resgister With Us</a></li>
+<li><a href="">New Regulations</a></li>
+<li><a href="">E-Sports</a></li>
+<li><a href="">Upcoming Tournaments</a></li>
+<li><a href="">Latest News</a></li>
+<li><a href="">Policy</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Recent Tweets</h5>
+<!--headin5_amrc ends here-->
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#" class = "twitter-link">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#" class = "twitter-link">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#" class = "twitter-link">https://www.lipsum.com/</a></p></li>
+</ul>
+<!--footer_ul2_amrc ends here-->
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<ul class="foote_bottom_ul_amrc">
+<li><a href="">Home</a></li>
+<li><a href="">About Us</a></li>
+<li><a href="">Governance</a></li>
+<li><a href="">E-Sports</a></li>
+<li><a href="">Members</a></li>
+<li><a href="">News</a></li>
+<li><a href="">Contact us</a></li>
+</ul>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Copyright @2021 | Designed With by <a href="#">Infinity Creative Labs</a></p>
+
+<ul class="social_footer_ul">
+<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=""><i class="fab fa-twitter"></i></a></li>
+<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+<li><a href=""><i class="fab fa-instagram"></i></a></li>
+</ul>
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+
+
+</body>
+
+
+</html>

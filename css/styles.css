@@ -1,0 +1,228 @@
+html,body{
+    overflow-x: hidden;
+    background-color: #eeeeee;
+
+}
+
+.top-head {
+  background-color: #2541b2;
+  color: white;
+  font-size: 0.8em;
+
+}
+
+.item-color {
+  font-size: 1.1em;
+  color: #2541b2;
+  margin-right: 10px;
+}
+
+.icon-color {
+  color: #2541b2;
+}
+
+
+/* removes blue top head in mobile view  */
+
+@media (min-width: 1px) and (max-width:1063px) {
+  .top-head{
+    display: none;
+  }
+}
+
+/* Side Nav Bar  */
+
+
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 40%;
+        height: auto;
+        background-color: #f8f9f8;
+        margin-top: 50px;
+        z-index: 1;
+    }
+
+    .navbar-collapse.collapsing {
+        right: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+        transition: right 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: right 500ms ease-in-out;
+    }
+}
+
+/* Banner Carousel CSS */
+
+.top-div {
+  height: 500px;
+  overflow: hidden;
+}
+
+.carousel {
+  margin-top: -65px;
+
+}
+
+.banner-image {
+height: 500px;
+
+}
+
+.card-header {
+  background-color: #2541b2;
+  color: white;
+}
+
+hr{
+  border-style: none;
+  border-top-style: solid;
+  border-color: #2541b2;
+  border-width:5px;
+  width:100%;
+margin-left: -10px;
+
+}
+
+.img-thumbnail {
+  height: 70px;
+  width: 80px;
+}
+
+.title {
+  margin-bottom: -1px;
+}
+.date {
+  font-size: 13px;
+
+}
+
+.event-content {
+  font-size: 0.8em;
+}
+
+.section1 {
+  height:200px;
+  width:101%;
+  overflow: hidden;
+
+}
+
+.news {
+  margin-top: -13px;
+  color: #f26b21;
+  font-size: 12px;
+}
+
+.news-text {
+  font-size: 13px;
+}
+
+.facts-div {
+  height: 400px;
+/* background-image: url("Assets/bg2.jpg"); */
+  overflow: hidden;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+.icon-numbers {
+  font-size: 100px;
+}
+
+.revenue {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.abouthr {
+
+  border-style: none;
+  border-top-style: solid;
+  border-color: #2541b2;
+  border-width:5px;
+  width:70%;
+margin-left: 200px;
+
+}
+
+.partners-div {
+  height: 300px;
+/* background-image: url("Assets/bg2.jpg"); */
+  overflow: hidden;
+  margin-top: 20px;
+  color: #2541b2;
+  text-align: center;
+}
+
+.car-image {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.img-thumbnail-width {
+  width: 150px;
+  height: 100px;
+}
+
+.icon1 {
+  color: #2541b2;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+
+/* Footer  */
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#2541b2; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+
+.twitter-link {
+  color: white;
+}
