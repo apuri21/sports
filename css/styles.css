@@ -92,9 +92,11 @@ hr{
   border-color: #2541b2;
   border-width:5px;
   width:100%;
-margin-left: -10px;
+margin-left: 10px;
 
 }
+
+/* Events Home Page css */
 
 .img-thumbnail {
   height: 70px;
@@ -103,14 +105,15 @@ margin-left: -10px;
 
 .title {
   margin-bottom: -1px;
+  font-size: 1.0em;
 }
 .date {
-  font-size: 13px;
+  font-size: 11px;
 
 }
 
 .event-content {
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .section1 {
@@ -120,15 +123,28 @@ margin-left: -10px;
 
 }
 
+/* News Section CSS */
+.newsdiv {
+  margin-left: -14px;
+}
 .news {
   margin-top: -13px;
   color: #f26b21;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .news-text {
-  font-size: 13px;
+  font-size: 12px;
 }
+
+.news-image {
+  width: 105%;
+}
+
+
+
+
+/* facts section css */
 
 .facts-div {
   height: 400px;
@@ -159,6 +175,8 @@ margin-left: -10px;
 margin-left: 200px;
 
 }
+
+/* Partner Section css */
 
 .partners-div {
   height: 300px;
@@ -225,4 +243,147 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 
 .twitter-link {
   color: white;
+}
+
+/* Tablet Responsive */
+
+@media (min-width: 995px) and (max-width: 1100px) {
+.cardresponsive {
+  margin-top: 20px;
+  height: 300px !important;
+  overflow: hidden;
+}
+
+.news-text {
+  font-size: 11px;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+.icon-numbers {
+  font-size: 70px !important;
+
+}
+
+.revenue {
+  font-size: 18px !important;
+}
+
+.car-image {
+  margin-left: 100px !important;
+}
+
+.img-thumbnail-width {
+  width: 125px !important;
+  height: 75px !important;
+}
+.icon1 {
+  margin-top: 85px !important;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 994px) {
+.ipadresponsive {
+  margin-top: 20px;
+}
+
+.icon-numbers {
+  font-size: 60px !important;
+
+}
+.revenue {
+  font-size: 16px !important;
+}
+.car-image {
+  margin-left: 125px !important;
+  width: 600px;
+}
+
+}
+
+/* Phone Responsive  */
+
+@media (min-width: 1px) and (max-width: 767px) {
+
+  .top-div {
+    height: 300px;
+    overflow: hidden;
+  }
+  .carousel {
+    margin-top: -30px;
+
+  }
+
+  .banner-image {
+  height: 300px;
+
+  }
+
+
+
+  .newsdiv {
+    margin-top: 25px !important;
+    margin-left: 1px !important;
+
+  }
+
+  hr {
+    margin-left:0px;
+  }
+.section1 {
+  width: 104% !important;
+}
+
+.cardresponsive {
+  margin-top: -15px !important;
+}
+
+.ipadresponsive {
+  margin-top: 15px !important;
+}
+
+.facts-div {
+  height: 300px !important;
+}
+.icon-numbers {
+  font-size: 30px !important;
+
+}
+.revenue {
+  font-size: 10px !important;
+}
+ .e-sports-head {
+   font-size: 1.6em;
+ }
+ .aboutus {
+   font-size: 1.3em !important;
+   margin-left: 15px;
+ }
+ .abouthr {
+   margin-left: -8px;
+   width: 290px;
+ }
+
+ .about-us {
+   height: 200px !important;
+   overflow: hidden;
+ }
+
+ .img-res {
+   height: 200px;
+ }
+ .mission {
+   margin-top: 22px !important;
+ }
+ .member {
+   margin-top: 22px !important;
+ }
+ .car-image {
+   margin-left: 100px;
+   margin-top: 62px;
+ }
+
 }
