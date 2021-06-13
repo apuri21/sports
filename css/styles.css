@@ -385,5 +385,8 @@ h1 {
    margin-left: 100px;
    margin-top: 62px;
  }
+.iconheight {
+  height: 262px !important;
+}
 
 }
