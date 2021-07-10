@@ -390,3 +390,12 @@ h1 {
 }
 
 }
+
+.date-time {
+  color : grey;
+}
+
+.blog-p {
+  margin-top: 10px;
+  font-size: 15px;
+}
