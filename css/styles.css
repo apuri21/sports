@@ -1,7 +1,15 @@
 html,body{
     overflow-x: hidden;
     background-color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 
+
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 .top-head {
@@ -134,12 +142,20 @@ margin-left: 10px;
 }
 
 .news-text {
-  font-size: 12px;
+  font-size: 11px;
+
 }
 
 .news-image {
   width: 105%;
 }
+
+.cardresponsive {
+  height: 250px;
+  overflow-y: hidden;
+}
+
+
 
 
 
@@ -165,6 +181,8 @@ margin-left: 10px;
   font-size: 20px;
 }
 
+
+/* About Us section  */
 .abouthr {
 
   border-style: none;
@@ -174,6 +192,10 @@ margin-left: 10px;
   width:70%;
 margin-left: 200px;
 
+}
+
+.text-white {
+  font-size: 13px;
 }
 
 /* Partner Section css */
@@ -388,8 +410,9 @@ h1 {
 .iconheight {
   height: 262px !important;
 }
-
 }
+
+/* News Page CSS */
 
 .date-time {
   color : grey;
@@ -398,4 +421,35 @@ h1 {
 .blog-p {
   margin-top: 10px;
   font-size: 15px;
+}
+
+/* ABout Us Page  */
+
+.about-page {
+  padding-top: 10px;
+  width : 90%;
+  padding-bottom: 40px;
+
+}
+
+.aboutfeai {
+  color: #f26b21;
+
+}
+
+.aboutsection {
+  background-color: white;
+  padding-bottom: 40px;
+}
+.work {
+    color: #f26b21;
+}
+
+.quote-c {
+  color: #2541b2;
+}
+
+.blogimg {
+  height: 500px;
+  width: 1000px;
 }
